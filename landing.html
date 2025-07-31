@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PostulApp Landing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- HERO -->
+  <section class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-16 px-6 text-center">
+    <h1 class="text-4xl font-bold mb-4">Descubre tu camino universitario con IA</h1>
+    <p class="text-lg mb-6 max-w-2xl mx-auto"></p>
+    <a href="#formulario" class="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-xl shadow hover:bg-gray-100">
+      Únete a la lista de espera
+    </a>
+  </section>
+
+  <!-- ¿QUÉ ES POSTULAPP? -->
+  <section class="py-16 px-6 max-w-4xl mx-auto text-center">
+    <h2 class="text-2xl font-bold mb-4">¿Qué es PostulApp?</h2>
+    <p class="text-lg">
+      Una plataforma hecha para estudiantes de secundaria que aún no tienen claro cómo postular o qué estudiar. Con ayuda de IA y un breve test, te guiamos para descubrir tu mejor opción: universidad nacional, beca, instituto o el extranjero.
+    </p>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="bg-gray-100 py-16 px-6">
+    <h2 class="text-2xl font-bold text-center mb-10">¿Qué podrás hacer?</h2>
+    <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <div class="text-4xl mb-4">🎯</div>
+        <p class="text-lg">Descubre carreras afines a tus intereses</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <div class="text-4xl mb-4">🧠</div>
+        <p class="text-lg">Recibe recomendaciones personalizadas con IA</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <div class="text-4xl mb-4">💰</div>
+        <p class="text-lg">Encuentra becas y formas de ingreso a tu alcance</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+        <div class="text-4xl mb-4">🏫</div>
+        <p class="text-lg">Conoce universidades y sus requisitos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMUNIDAD -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4">Únete a nuestra comunidad en WhatsApp</h2>
+    <p class="mb-6 max-w-xl mx-auto">
+      Accede a tips, becas, lives, talleres y orientación directa. Comparte tu camino con estudiantes como tú.
+    </p>
+    <a href="https://wa.me/tu-numero" target="_blank" class="inline-block bg-green-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-600">
+      Ir al grupo de WhatsApp
+    </a>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section id="formulario" class="bg-indigo-50 py-16 px-6">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-6">¿Quieres ser de los primeros en probar PostulApp?</h2>
+      <form class="grid gap-4 text-left">
+        <input type="text" placeholder="Nombre completo" class="p-3 rounded border" />
+        <input type="text" placeholder="Colegio" class="p-3 rounded border" />
+        <select class="p-3 rounded border">
+          <option value="">Año (4to o 5to secundaria)</option>
+          <option value="4to">4to secundaria</option>
+          <option value="5to">5to secundaria</option>
+        </select>
+        <input type="text" placeholder="¿Qué carrera te interesa?" class="p-3 rounded border" />
+        <input type="tel" placeholder="Número de WhatsApp" class="p-3 rounded border" />
+        <button class="bg-indigo-600 text-white py-3 rounded-xl font-semibold hover:bg-indigo-700">Quiero recibir la beta</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CIERRE -->
+  <section class="text-center py-12 px-6">
+    <p class="text-xl italic max-w-xl mx-auto">"PostulApp no te dice qué estudiar, te ayuda a descubrirlo."</p>
+  </section>
+</body>
+</html>
